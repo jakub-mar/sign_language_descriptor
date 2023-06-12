@@ -31,7 +31,7 @@ def preprocess_data(data: pd.DataFrame):
     std = StandardScaler()
     X = std.fit_transform(X)
 
-    model = pickle.load(open("./Marciniak_Jakub/model_lr.pkl", "rb"))
+    model = pickle.load(open("./model_lr.pkl", "rb"))
     predictions = model.predict(X)
     print(predictions)
     return predictions
