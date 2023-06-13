@@ -6,7 +6,7 @@
 Projekt ma na celu impementację uczenia maszynowego mającego na celu wykrywanie liter w języku migowym. 
 
 
-Do uczenia modelu wykorzystano stworzony wspólnie z kolegami i koleżankami z RISA dataset zawierający wszystkie litery alfabetu migowego w ilościach proporcjonalnych.
+Do uczenia modelu wykorzystano stworzony przez studentów, dość dobrze zbalansowany, dataset zawierający wszystkie litery alfabetu migowego.
 W projekcie wykorzystano jedynie dane landmark we współrzędnych ramki, a nie world.
 Ponadto wykorzystano dane z kolumny handeness.label, które zostały zenkodowane przy pomocy OneHotEncoder.
 Na koniec wszyskie dane zostały ustandaryzowane przy pomocy StandardScaler.
